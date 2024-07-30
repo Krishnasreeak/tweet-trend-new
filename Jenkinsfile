@@ -20,7 +20,7 @@ pipeline {
                 echo "------------UNIT TEST COMPLETED-------------"
             }
         }
-        def registry = 'https://valaxydemo.jfrog.io/'
+        def registry = 'https://valaxydemo.jfrog.io'
          stage("Jar Publish") {
         steps {
             script {
